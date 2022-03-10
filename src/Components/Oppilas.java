@@ -7,6 +7,19 @@ public class Oppilas {
     private String name;
 
     public Oppilas(String name){
+        this.name = name;
         this.id = idCounter++;
+    }
+    public int getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public void setName(String name) {
+        this.name = name;
     }
 }
