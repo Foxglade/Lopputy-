@@ -31,27 +31,4 @@ public class Kurssi {
         return opintop;
     }
 
-    public Kurssi() {
-    }
-
-    public Kurssi(int id, String name, int opintop) {
-        this.id = id;
-        this.name = name;
-        this.opintop = opintop;
-    }
-
-    public Kurssi id(int id) {
-        setId(id);
-        return this;
-    }
-
-    public Kurssi name(String name) {
-        setName(name);
-        return this;
-    }
-
-    public Kurssi opintop(int opintop) {
-        setOpintop(opintop);
-        return this;
-    }
 }
